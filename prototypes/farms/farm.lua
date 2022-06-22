@@ -3,6 +3,14 @@ local function sprite(name)
     return '__KoS-Food-Factory__/ressources/???'
 end
 
+data:extend({
+    --farm_recipe_book
+    {
+        name = 'ff_farm_recipe_book',
+        type = 'recipe-category',
+    },
+})
+
 --item
 data:extend({
     {
