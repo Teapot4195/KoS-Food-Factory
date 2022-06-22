@@ -44,5 +44,13 @@ data:extend({
             module_slots = 2,
         },
         crafting_categories = {"ff_farm_recipe_book"},
+        --animation
+        animation = {
+            filename = '__KoS-Food-Factory__/ressources/placeholder.png',
+            size = {64,64},
+            scale = 2,
+            line_length = 1,
+            frame_count = 1,
+        },
     },
 })
