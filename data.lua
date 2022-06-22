@@ -1,3 +1,6 @@
+-- categories
+require ('prototypes/food_ammo')
+
 --farms
 require('prototypes/farms/wheat')
 require('prototypes/farms/farm_recipes')
