@@ -56,7 +56,7 @@ data:extend({
         animation = {
             filename = '__KoS-Food-Factory__/ressources/placeholder.png',
             size = {64,64},
-            scale = 2,
+            scale = 2.25,
             line_length = 1,
             frame_count = 1,
         },
