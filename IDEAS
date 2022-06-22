@@ -1,7 +1,17 @@
-Farms
+Farms:
+  |- Lettuce
+  | \- 10x Lettuce leaf
+  |- Tomatos
+  | \- Sliced tomatos
   \- Wheat
     \- Flour
-      \- Baked goodies?
+      \- Hamburger buns
+
+Fod:
+  -> Hamburger buns 2x ---> Tomato hamburger
+  -> Sliced tomats     -/
+  -> Hamburger buns 2x ---> Lettuce hamburger
+  -> Lettuce leaf      -/
 
 
 Buildings:
