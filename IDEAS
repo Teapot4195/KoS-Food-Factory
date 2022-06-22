@@ -1,11 +1,26 @@
 Farms:
+  |- Strawberries
+  |- Blueberries
+  |- Watermelons
+  |- Blackberries
+  |- Raspberries
+  |- Peaches
+  |- Plums
+  |- Kiwis
+  |- Mangos
+  |- Apple
+  |- Banana
+  |- Grape
+  |- Lemon
+  |- Orange
+  |- Pear
   |- Lettuce
   | \- 10x Lettuce leaf
   |- Tomatos
   | \- Sliced tomatos
   \- Wheat
     \- Flour
-      \- Hamburger buns
+      \- Hamburger buns 2x
 
 Fod:
   -> Hamburger buns 2x ---> Tomato hamburger
