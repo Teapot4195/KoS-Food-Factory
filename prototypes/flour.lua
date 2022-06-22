@@ -3,7 +3,7 @@ data:extend({
     {
         name = 'ff_grinder_flour_recipe',
         type = 'recipe',
-        enabled = 'true',
+        enabled = false,
         ingredients = {{'ff_farm_wheat_item', 10}},
         result_count = 1,
         result = 'ff_grinder_flour_item',

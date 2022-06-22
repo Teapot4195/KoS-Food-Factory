@@ -4,7 +4,7 @@ data:extend({
     {
         name = 'ff_farm_recipe',
         type = 'recipe',
-        enabled = 'true',
+        enabled = true,
         ingredients = {
             {'iron-plate', 1},
         },
@@ -16,7 +16,7 @@ data:extend({
     {
         name = 'ff_grinder_recipe',
         type = 'recipe',
-        enabled = 'true',
+        enabled = false,
         ingredients = {
             {'iron-plate', 1},
         },
