@@ -41,7 +41,7 @@ data:extend({
             result = 'ff_farm_item',
         },
         crafting_speed = 1,
-        ingredient_count = 0,
+        ingredient_count = 1,
         energy_source = {
             type = 'electric',
             usage_priority = 'secondary-input',
@@ -52,6 +52,16 @@ data:extend({
             module_slots = 2,
         },
         crafting_categories = {"ff_farm_recipe_book"},
+        fluid_boxes = {
+            {
+                production_type = "input",
+                pipe_picutre = assembler2pipepictures(),
+                pipe_coveers = pipecoverspictures(),
+                base_area = 10,
+                base_level = -1,
+                pipe_connections = {{type='input', position = {0, -3}}},
+            },
+        },
         --animation
         animation = {
             filename = '__KoS-Food-Factory__/ressources/placeholder.png',

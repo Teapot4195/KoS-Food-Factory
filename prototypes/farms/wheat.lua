@@ -10,11 +10,11 @@ data:extend({
         name = 'ff_farm_wheat_recipe',
         type = 'recipe',
         enabled = 'true',
-        ingredients = {},
+        ingredients = {{type = 'fluid', name = 'water', amount = 500}},
         category = 'ff_farm_recipe_book',
         result = 'ff_farm_wheat_item',
-        result_count = 1,
-        energy_required = 0.5,
+        result_count = 50,
+        energy_required = 30,
     },
 })
 
