@@ -5,7 +5,7 @@ Farms:
   |- Blackberries
   |- Raspberries
   |- Peaches
-  |- Plums
+  |- Plums  
   |- Kiwis
   |- Mangos
   |- Apple
@@ -14,12 +14,14 @@ Farms:
   |- Lemon
   |- Orange
   |- Pear
+  |- dates
   |- Lettuce
   | \- 10x Lettuce leaf
   |- Tomatos
   | \- Sliced tomatos
   \- Wheat
     \- Flour
+      |- Bread
       \- Hamburger buns 2x
 
 Fod:
