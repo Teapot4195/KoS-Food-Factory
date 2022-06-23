@@ -16,3 +16,7 @@ require('prototypes/recipes')
 
 --technologies
 require('prototypes/research/tech')
+
+--trades
+require('prototypes/trading/tradepost')
+require('prototypes/trading/trades')

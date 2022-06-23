@@ -38,4 +38,16 @@ data:extend({
         result_count = 1,
         energy_required = 1,
     },
+    --ff_tradepost
+    {
+        name = 'ff_tradepost_recipe',
+        type = 'recipe',
+        enabled = true,
+        ingredients = {
+            {'iron-plate', 1},
+        },
+        result = 'ff_tradepost_item',
+        result_count = 1,
+        energy_required = 1,
+    },
 })
