@@ -1,2 +1,3 @@
 require('wheat_processing')
-requrie('tomato_farming')
+require('tomato_farming')
+
