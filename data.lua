@@ -7,6 +7,10 @@ require('prototypes/farms/tomato')
 require('prototypes/grinder')
 require('prototypes/flour')
 
+--choppers
+require('prototypes/chopper')
+require('prototypes/tomato_slice')
+
 --Recipe prototypes
 require('prototypes/recipes')
 

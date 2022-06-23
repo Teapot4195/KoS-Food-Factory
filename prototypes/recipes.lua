@@ -24,5 +24,18 @@ data:extend({
         result = 'ff_grinder_item',
         result_count = 1,
         energy_required = 1,
-    }
+    },
+    --ff_chopper
+    {
+        name = 'ff_chopper_recipe',
+        type = 'recipe',
+        enabled = false,
+        ingredients = {
+            {'iron-plate', 20},
+            {'iron-gear-wheel', 10},
+        },
+        result = 'ff_chopper_item',
+        result_count = 1,
+        energy_required = 1,
+    },
 })
