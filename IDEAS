@@ -5,7 +5,7 @@ Farms:
   |- Blackberries
   |- Raspberries
   |- Peaches
-  |- Plums  
+  |- Plums
   |- Kiwis
   |- Mangos
   |- Apple
@@ -14,7 +14,7 @@ Farms:
   |- Lemon
   |- Orange
   |- Pear
-  |- dates
+  |- Dates
   |- Lettuce
   | \- 10x Lettuce leaf
   |- Tomatos
@@ -32,7 +32,6 @@ Fod:
 
 
 Buildings:
-Grinder
 Prep table
 Grinder
 Oven - Pizza oven graphic
