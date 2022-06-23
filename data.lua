@@ -1,6 +1,7 @@
 --farms
 require('prototypes/farms/farm')
 require('prototypes/farms/wheat')
+require('prototypes/farms/tomato')
 
 --grinders
 require('prototypes/grinder')
