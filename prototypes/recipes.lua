@@ -6,7 +6,7 @@ data:extend({
         type = 'recipe',
         enabled = true,
         ingredients = {
-            {'iron-plate', 1},
+            {'iron-plate', 10},
         },
         result = 'ff_farm_item',
         result_count = 1,
@@ -18,7 +18,8 @@ data:extend({
         type = 'recipe',
         enabled = false,
         ingredients = {
-            {'iron-plate', 1},
+            {'iron-plate', 10},
+            {'iron-gear-wheel', 5},
         },
         result = 'ff_grinder_item',
         result_count = 1,
