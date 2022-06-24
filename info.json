@@ -4,6 +4,6 @@
     "title": "KoS Food Factory",
     "author": "teapot4195",
     "factorio_version": "1.1",
-    "dependencies": ["base >= 1.1"],
+    "dependencies": ["base >= 1.1", "KoS-Technical-Terms >= 1.0.0"],
     "description": "The Katherine of Sky food factory mod"
 }
