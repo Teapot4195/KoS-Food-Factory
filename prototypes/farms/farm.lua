@@ -43,10 +43,9 @@ data:extend({
         crafting_speed = 1,
         ingredient_count = 1,
         energy_source = {
-            type = 'electric',
-            usage_priority = 'secondary-input',
+            type = 'void',
         },
-        energy_usage = '40kW',
+        energy_usage = '10kW',
         allowed_effects = {"speed", "consumption", "pollution"},
         module_specification = {
             module_slots = 2,
