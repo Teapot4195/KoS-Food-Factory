@@ -1,7 +1,7 @@
 --trade category
 data:extend({
     {
-        name = 'ff_trades',
+        name = 'ff_buyable',
         type = 'recipe-category',
     },
 })
@@ -9,42 +9,43 @@ data:extend({
 --item
 data:extend({
     {
-        name = 'ff_tradepost_item',
+        name = 'ff_buyer_item',
         type = 'item',
         icon = '__KoS-Food-Factory__/ressources/placeholder.png',
         icon_size = 64,
-        place_result = 'ff_tradepost_entity',
+        place_result = 'ff_buyer_entity',
         stack_size = 50,
-    },
+    }
 })
 
 --entity
 data:extend({
     {
-        name = 'ff_tradepost_entity',
+        name = 'ff_buyer_entity',
         type = 'assembling-machine',
         icon = '__KoS-Food-Factory__/ressources/placeholder.png',
         icon_size = 64,
-        flags = {"player-creation", "placeable-neutral"},
+        flags = {'player-creation', 'placeable-neutral'},
         max_health = 250,
-        collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
-        selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
+        collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+        selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
         map_color = {r=0, g=0, b=1, a=1},
         minable = {
             mining_time = 1,
-            result = 'ff_tradepost_item',
+            result = 'ff_buyer_item',
         },
         crafting_speed = 1,
+        ingredient_count = 1,
         energy_source = {
             type = 'void',
         },
-        energy_usage = '40kW',
-        crafting_categories = {'ff_trades'},
+        energy_usage = '10kW',
+        crafting_categories = {'ff_buyable'},
         --animation
         animation = {
             filename = '__KoS-Food-Factory__/ressources/placeholder.png',
             size = {64,64},
-            scale = 2.25,
+            scale = 1.5,
             line_length = 1,
             frame_count = 1,
         },

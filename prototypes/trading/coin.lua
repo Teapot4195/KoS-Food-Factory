@@ -5,6 +5,6 @@ data:extend({
         type = 'item',
         icon = '__KoS-Food-Factory__/ressources/placeholder.png',
         icon_size = 64,
-        stack_size = 50000,
+        stack_size = 5000,
     }
 })

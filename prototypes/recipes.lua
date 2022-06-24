@@ -50,4 +50,16 @@ data:extend({
         result_count = 1,
         energy_required = 1,
     },
+    --ff_buyer
+    {
+        name = 'ff_buyer_recipe',
+        type = 'recipe',
+        enabled = true,
+        ingredients = {
+            {'iron-plate', 1},
+        },
+        result = 'ff_buyer_item',
+        result_count = 1,
+        energy_required = 1,
+    },
 })

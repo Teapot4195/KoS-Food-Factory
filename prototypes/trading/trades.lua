@@ -23,5 +23,3 @@ data:extend({
         energy_required = 0.5,
     },
 })
-
---trade flour
