@@ -1,26 +1,19 @@
---wheat processing
+--tomato_farming
 data:extend({
     {
         type = 'technology',
-        name = 'ff_wheat_processing',
+        name = 'ff_farming",
         icon_size = 64,
         icon = '__KoS-Food-Factory__/ressources/placeholder.png',
         effects = {
             {
                 type = 'unlock-recipe',
-                recipe = 'ff_grinder_flour_recipe',
+                recipe = 'ff_farm',
             },
-            {
-                type = 'unlock-recipe',
-                recipe = 'ff_grinder_recipe',
-            },
-        },
-        prerequisites = {
-            'ff_farming'
         },
         unit = {
-            count = 20,
-            time = 10,
+            count = 1,
+            time = 1,
             ingredients = {{'automation-science-pack', 1}},
         },
     }
